@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mel - Heraldo de Piltover | LoL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+
+  
+  <nav class="navbar navbar-expand-md navbar-dark bg-black sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-warning" href="#inicio">Mel · LoL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#objetos">Objetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stats">Estadísticas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header id="inicio" class="py-5 border-bottom border-warning">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-md-4 text-center">
+          <img src="images/mel.png" 
+          class="img-fluid rounded shadow border border-warning" 
+          alt="Mel">
+        </div>
+        <div class="col-12 col-md-8">
+          <h1 class="display-4 text-warning fw-bold">Mel</h1>
+          <h2 class="h4 text-secondary">La Heraldo de Piltover</h2>
+          <p class="lead mt-3">
+            Mel es una maga de rango medio que juega principalmente en la línea central.
+            Controla el combate con proyectiles de área, refleja habilidades enemigas
+            y acumula presión con cada golpe hasta ejecutar a sus rivales.
+          </p>
+          <span class="badge bg-primary me-1">Maga</span>
+          <span class="badge bg-info text-dark me-1">Mid</span>
+          <span class="badge bg-warning text-dark">AP</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ 
+  <section id="habilidades" class="py-5">
+    <div class="container">
+      <h2 class="text-warning mb-4">Habilidades</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 bg-secondary bg-opacity-25 text-light border-warning">
+            <div class="card-body text-center">
+              <img src="images/p.png"
+                   width="64" height="64" class="mb-3 rounded" alt="Pasiva">
+              <h3 class="h5 text-warning">Pasiva · Presión</h3>
+              <p class="card-text">Cada golpe o habilidad que acierta acumula cargas de presión sobre el enemigo. Con suficientes cargas, su siguiente ataque ejecuta al objetivo si está con poca vida.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 bg-secondary bg-opacity-25 text-light border-warning">
+            <div class="card-body text-center">
+              <img src="images/q.png"
+                   width="64" height="64" class="mb-3 rounded" alt="Habilidad Q">
+              <h3 class="h5 text-warning">Q · Salva radiante</h3>
+              <p class="card-text">Lanza una ráfaga de proyectiles que explotan en área y dañan a los enemigos. Es su principal herramienta de daño y acoso. Es la habilidad que se sube primero.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 bg-secondary bg-opacity-25 text-light border-warning">
+            <div class="card-body text-center">
+              <img src="images/w.png"
+                   width="64" height="64" class="mb-3 rounded" alt="Habilidad W">
+              <h3 class="h5 text-warning">W · Refutación</h3>
+              <p class="card-text">Crea una defensa que refleja los proyectiles enemigos de vuelta contra quien los lanzó. También sirve para protegerse en el combate.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 bg-secondary bg-opacity-25 text-light border-warning">
+            <div class="card-body text-center">
+              <img src="images/e.png"
+                   width="64" height="64" class="mb-3 rounded" alt="Habilidad E">
+              <h3 class="h5 text-warning">E · Trampa solar</h3>
+              <p class="card-text">Dispara una esfera de energía que daña al enemigo y lo inmoviliza, lo que facilita conectar el resto del combo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 bg-secondary bg-opacity-25 text-light border-warning">
+            <div class="card-body text-center">
+              <img src="images/r.png"
+                   width="64" height="64" class="mb-3 rounded" alt="Habilidad R">
+              <h3 class="h5 text-warning">R · Eclipse dorado</h3>
+              <p class="card-text">Su definitiva. Marca a los enemigos y les lanza un ataque de largo alcance que inflige daño según las cargas de presión acumuladas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 bg-secondary bg-opacity-25 text-light border-info">
+            <div class="card-body">
+              <h3 class="h5 text-info text-center">Orden de habilidades</h3>
+              <p class="text-center mb-2">Prioridad de subida</p>
+              <p class="text-center fs-4 fw-bold">
+                <span class="badge bg-warning text-dark">Q</span> →
+                <span class="badge bg-warning text-dark">E</span> →
+                <span class="badge bg-warning text-dark">W</span>
+              </p>
+              <p class="text-center small mb-0">Se sube la R en los niveles 6, 11 y 16.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="objetos" class="py-5 bg-black bg-opacity-50">
+    <div class="container">
+      <h2 class="text-warning mb-4">Mejores objetos (build típica AP)</h2>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3 text-center">
+
+        <div class="col">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-body">
+              <img src="images/botas.png" width="64" height="64" class="rounded mb-2" alt="Botas del hechicero">
+              <p class="card-text small text-light mb-0">1. Botas del hechicero</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-body">
+              <img src="images/ecoLuden.png" width="64" height="64" class="rounded mb-2" alt="Eco de Luden">
+              <p class="card-text small text-light mb-0">2. Eco de Luden</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-body">
+              <img src="images/llamaSombria.png" width="64" height="64" class="rounded mb-2" alt="Llama sombría">
+              <p class="card-text small text-light mb-0">3. Llama sombría</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-body">
+              <img src="images/relojArenaZhonya.png" width="64" height="64" class="rounded mb-2" alt="Reloj de arena de Zhonya">
+              <p class="card-text small text-light mb-0">4. Reloj de arena de Zhonya</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-body">
+              <img src="images/sombreroRabadon.png" width="64" height="64" class="rounded mb-2" alt="Sombrero de la muerte de Rabadon">
+              <p class="card-text small text-light mb-0">5. Sombrero de Rabadon</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-warning h-100">
+            <div class="card-body">
+              <img src="images/bastonDelVacio.png" width="64" height="64" class="rounded mb-2" alt="Bastón del vacío">
+              <p class="card-text small text-light mb-0">6. Bastón del vacío</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p class="text-secondary small mt-3">Nota: verifica la build actual, ya que cambia con cada parche.</p>
+    </div>
+  </section>
+
+  
+  <section id="stats" class="py-5">
+    <div class="container">
+      <h2 class="text-warning mb-4">Estadísticas (parche 16.20, OP.GG)</h2>
+      <div class="row g-4 text-center">
+        <div class="col-12 col-md-4">
+          <div class="p-4 border border-success rounded">
+            <p class="display-6 text-success mb-1">45.85%</p>
+            <p class="mb-0">WinRate</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-4 border border-info rounded">
+            <p class="display-6 text-info mb-1">2.29%</p>
+            <p class="mb-0">Tasa de selección</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-4 border border-danger rounded">
+            <p class="display-6 text-danger mb-1">11.05%</p>
+            <p class="mb-0">Tasa de baneo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-responsive mt-5">
+        <table class="table table-dark table-striped table-bordered align-middle">
+          <thead>
+            <tr><th>Consejo</th><th>Detalle</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Contra Mel</td><td>Espera a que use su W antes de lanzar tus habilidades clave.</td></tr>
+            <tr><td>Contra Mel</td><td>Retírate con poca vida para evitar su ejecución por presión.</td></tr>
+            <tr><td>Jugando Mel</td><td>Acumula cargas con tus golpes y usa la E para asegurar el combo.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-center text-secondary py-4">
+    <div class="container">
+      <p class="mb-1">Proyecto académico por: Luis Fabricio Avila Banegas · Hecho con Bootstrap 5.3</p>
+      <p class="small mb-0">Datos de <a class="link-warning" href="https://op.gg/es/lol/champions/mel/build" target="_blank" rel="noopener">OP.GG</a>. League of Legends © Riot Games, Inc.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
